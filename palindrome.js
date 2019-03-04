@@ -8,7 +8,7 @@ function isAlphaNumeric(str) {
     $                end of string
     /i               case-insensitive
 
-     */
+  */
 
   return str.length === 1 && str.match(/^[a-z0-9]+$/i);
 }
@@ -43,4 +43,4 @@ function palindrome(str) {
 }
 
 // Try it
-console.log(palindrome('eye'));
+console.log(palindrome('HAH'));
