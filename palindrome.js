@@ -10,7 +10,7 @@ function isAlphaNumeric(str) {
 
   */
 
-  return str.length === 1 && str.match(/^[a-z0-9]+$/i);
+  return str.length === 1 && (/^[a-z0-9]+$/i).test(str);
 }
 
 // Palindrome checker function
