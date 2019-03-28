@@ -1,4 +1,4 @@
-// Is string alpha Numeric and char
+// Is string alpha numeric and char
 function isAlphaNumeric(str) {
   /*
     [a-z0-9]   a or b or c or ...z or 0 or 1 or ... 9
