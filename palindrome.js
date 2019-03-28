@@ -1,16 +1,11 @@
-// Is string Alpha Numeric
+// Is string alpha Numeric and char
 function isAlphaNumeric(str) {
   /*
-
-    ^                Start of string
-    [ a - z0 - 9 ]   a or b or c or ...z or 0 or 1 or ... 9
-    +                one or more times(change to * to allow empty string)
-    $                end of string
-    /i               case-insensitive
-
+    [a-z0-9]   a or b or c or ...z or 0 or 1 or ... 9
+    /i         case-insensitive
   */
 
-  return str.length === 1 && (/^[a-z0-9]+$/i).test(str);
+  return str.length === 1 && (/[a-z0-9]/i).test(str);
 }
 
 // Palindrome checker function
